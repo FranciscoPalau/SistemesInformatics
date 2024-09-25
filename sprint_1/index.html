@@ -82,7 +82,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#configuracii-xarxa" class="nav-link">Configuracií Xarxa</a>
+            <li class="nav-item" data-level="2"><a href="#configuracio-xarxa" class="nav-link">Configuració Xarxa</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -122,7 +122,23 @@ Les espesificacions que he posat son les següentes.</p>
 <p><img alt="foto6" src="../imatges/Captura%20de%20pantalla%20de%202024-09-19%2012-25-27.png" /></p>
 <p>Li dono a instal·lar i ja estaria.</p>
 <p><img alt="foto7" src="../imatges/Captura%20de%20pantalla%20de%202024-09-19%2012-26-23.png" /></p>
-<h2 id="configuracii-xarxa">Configuracií Xarxa</h2>
+<h2 id="configuracio-xarxa">Configuració Xarxa</h2>
+<p>La xarxa en Ubuntu es pot configurar de dues formes diferents.</p>
+<p>Entorn Gràfic: En l'entorn gràfic es pot configurar amb DHCP o de forma manual. En aquest cas és de forma manual.</p>
+<p>El que s'ha de configurar és: La direcció IP, Màscara de xarxa, Porta de enllaç i el DNS.</p>
+<p><img alt="netplan1" src="../imatges/netplan/1.png" /></p>
+<p>Fent un "ip a" es pot veure com s'han aplicat els canvis.</p>
+<p><img alt="netplan2" src="../imatges/netplan/2.png" /></p>
+<p>I amb el ping es pot veure com si ens dona accés a internet.</p>
+<p><img alt="netplan3" src="../imatges/netplan/3.png" /></p>
+<p>Per comandes:</p>
+<p>Per configurar-ho per comanes és en la carpeta "/etc/netplan/01-network-manager-all.yaml"</p>
+<p>Les modificacions són les següents:</p>
+<p><img alt="netplan4" src="../imatges/netplan/4.png" /></p>
+<p>Amb "ip a" podem veure com s'han aplicat els camvis.</p>
+<p><img alt="netplan5" src="../imatges/netplan/5.png" /></p>
+<p>I fent ping podem veure com ens dona acces a internet.</p>
+<p><img alt="netplan6" src="../imatges/netplan/6.png" /></p>
 <h2 id="punts-de-restauracio">Punts de restauració</h2>
 <h2 id="grub">GRUB</h2>
 <h2 id="desinstalacio-apricacions">Des/Instalacio Apricacions</h2></div>
